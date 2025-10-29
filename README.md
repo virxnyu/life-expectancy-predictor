@@ -192,7 +192,7 @@ Completed full ML workflow: data cleaning, training, testing, visualization, mod
 
 Improved debugging and version compatibility for deployment.
 
-13. Conclusion
+# 13. Conclusion
 
 This project demonstrates how data-driven models can provide actionable insights into public health outcomes.
 Among all tested models, Random Forest Regression achieved the best balance of accuracy and interpretability.
@@ -218,7 +218,7 @@ bash
 git clone [https://github.com/virxnyu/life-expectancy-predictor.git](https://github.com/virxnyu/life-expectancy-predictor.git)
 cd life-expectancy-predictor
 
-3. Create a Virtual Environment
+2. Create a Virtual Environment
    
 This is a best practice to keep all the project libraries in one place.
 
