@@ -19,7 +19,7 @@ original_columns = ['Year', 'Adult Mortality', 'infant deaths', 'Alcohol',
                     'Schooling', 'Status_Developing']
 
 # 2. CREATE THE WEB APP INTERFACE 
-st.title('Cool Life Expectancy Predictor')
+st.title('Life Expectancy Predictor')
 st.write("Enter the country's details to predict its life expectancy.")
 
 # Create columns for layout
@@ -84,4 +84,5 @@ if st.button('Predict Life Expectancy'):
     prediction = model.predict(input_scaled)
 
     # 4. DISPLAY THE OUTPUT
+
     st.subheader(f'Predicted Life Expectancy: {prediction[0]:.2f} years')
