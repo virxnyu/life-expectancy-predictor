@@ -205,20 +205,20 @@ Include more granular features such as healthcare spending and pollution indices
 Deploy the model as an API integrated with live global datasets.
 
 
-Steps to run Code:
+# Steps to run Code:
 
 How to Run This Project Locally
 
 You can run the interactive Streamlit app on your own computer by following these steps.
 
-1. Clone the Repository
+## 1. Clone the Repository
    
 First, get the code from GitHub. Open your terminal and run:
 bash
 git clone [https://github.com/virxnyu/life-expectancy-predictor.git](https://github.com/virxnyu/life-expectancy-predictor.git)
 cd life-expectancy-predictor
 
-2. Create a Virtual Environment
+## 2. Create a Virtual Environment
    
 This is a best practice to keep all the project libraries in one place.
 
@@ -230,11 +230,11 @@ python -m venv venv
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install all required libraries from requirements.txt
+## 3. Install all required libraries from requirements.txt
    
 Run pip install -r requirements.txt to install all libraries
 
-4. Run the Streamlit App
+## 4. Run the Streamlit App
 
 streamlit run app.py
 
