@@ -43,7 +43,7 @@ Train-Test Split
 Data split into 80% training and 20% testing for fair model evaluation.
 
 # 5. Machine Learning Models Used
-# 5.1 Linear Regression
+## 5.1 Linear Regression
 
 A baseline statistical model that assumes a linear relationship between predictors and life expectancy.
 
@@ -53,7 +53,7 @@ Cons: Limited ability to capture non-linear relationships.
 
 Use case: Establishes a baseline performance metric to compare advanced models against.
 
-# 5.2 Support Vector Regressor (SVR)
+## 5.2 Support Vector Regressor (SVR)
 
 SVR attempts to find an optimal hyperplane that fits the data within a specified margin of error.
 
@@ -63,7 +63,7 @@ Cons: Sensitive to feature scaling and can be slow for large datasets.
 
 Use case: Captures more complex, non-linear trends that linear regression may miss.
 
-# 5.3 PCA + SVR Pipeline
+## 5.3 PCA + SVR Pipeline
 
 Principal Component Analysis (PCA) reduces the dimensionality of the data while retaining 95% of the variance, followed by SVR on the compressed features.
 
@@ -73,7 +73,7 @@ Cons: Slightly reduces interpretability.
 
 Use case: A hybrid model balancing performance and efficiency, particularly useful when dealing with correlated health and economic features.
 
-# 5.4 Random Forest Regressor
+## 5.4 Random Forest Regressor
 
 An ensemble learning method that builds multiple decision trees and averages their outputs.
 
