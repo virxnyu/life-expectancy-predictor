@@ -1,4 +1,4 @@
-Life Expectancy Prediction using Machine Learning
+# Life Expectancy Prediction using Machine Learning
 # 1. Project Overview
 
 This project aims to predict the life expectancy of a country based on key socio-economic and health indicators using various machine learning algorithms.
